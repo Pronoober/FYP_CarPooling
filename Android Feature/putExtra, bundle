@@ -1,0 +1,11 @@
+//To pass more than one piece of data to another Activity, use the Intent.putExtra() method. For example:
+Intent intent = new Intent(this, MyActivity.class);
+intent.putExtra("NAME", name);
+intent.putExtra("ID", id);
+
+
+//To retrieve data in an Activity, use the following commands:
+Bundle extras = getIntent().getExtras();
+if (!extras.isEmpty()) {
+   name = (String) extras.getString("NAME");
+    ID = (String) extras.getString("ID");
