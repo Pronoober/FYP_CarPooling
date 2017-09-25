@@ -1,0 +1,8 @@
+/** Take note of the details in this method that are required in order for the system to recognize it as compatible 
+with the android:onClick attribute. Specifically, the method must declare the following: 
+
+1. Public access
+2. A void return value
+3. A View as the only parameter (it is the View object that was clicked)
+
+*/
